@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About"
+    android:background="@drawable/borthick">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bor"
+        android:text="   What is BMI?  "
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+
+        android:textSize="22dp"
+        android:text="             The body mass index (BMI) is a measure that uses your height and weight to work out if your weight is healthy.
+The BMI calculation divides an adult's weight in kilograms by their height in metres squared."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bor"
+        android:text="    BMI Interpretation  "
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:fontFamily="cursive"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+
+        android:textSize="20dp"
+        android:text="             For adults 20 years old and older, BMI is interpreted using standard weight status categories. These categories associated with BMI ranges for adults are shown below:"/>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text=" Below 18.5 – you're in the underweight range \n
+Between 18.5 and 24.9 – you're in the healthy weight range \n
+Between 25 and 29.9 – you're in the overweight range\n
+Between 30 and 40 – you're in the obese range\n
+Above 40-you're in the over obese range"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="@drawable/bor"
+        android:text="    Importance of BMI   "
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:fontFamily="cursive"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="      You can find out if you're overweight by calculating your body mass index (BMI). This shows whether you're a healthy weight for your height.Work out accordingly to acquire normal BMI"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="    STAY HEALTHY  "
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="26dp"
+        android:fontFamily="cursive"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="75dp"
+        android:layout_gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Previous"
+        android:fontFamily="cursive"
+        android:textColor="#cccc00"
+        android:layout_gravity="left"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bor"
+        android:id="@+id/back"/>
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_gravity="right"
+        android:layout_marginStart="90pt"
+
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/bor"
+        android:fontFamily="cursive"
+        android:text="Close"
+        android:textColor="#cccc00" />
+    </LinearLayout>
+
+
+</LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
